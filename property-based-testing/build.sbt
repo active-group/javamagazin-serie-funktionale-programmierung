@@ -8,11 +8,12 @@ lazy val root = project
 
     scalaVersion := scala3Version,
 
+    // ScalaCheck
     libraryDependencies += "org.scalacheck" %% "scalacheck" % "1.18.1" % Test,
     // Enable ScalaCheck
     testFrameworks += new TestFramework("org.scalacheck.ScalaCheckFramework"),
 
-    // Automatically import PropertyTestUtils and other common test dependencies in the Test console
+    // Automatically import BinarySearchTreeSpec and other common test dependencies in the Test console
     Test / console / initialCommands := """
       import org.scalacheck.Prop._
       import org.scalacheck.Test.Parameters
