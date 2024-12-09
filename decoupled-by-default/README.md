@@ -2,6 +2,7 @@
 
 Sourcecode zum JavaMagazin-Artikel.
 
-### Usage
+### Benutzung
 
-This is a sbt project. You can compile code with `sbt compile`, run it with `sbt run`, and `sbt console` will start a Scala 3 REPL.
+Kompilieren mit `sbt compile` und `sbt console` um eine Scala-3-REPL zu starten.
+
