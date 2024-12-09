@@ -1,0 +1,1 @@
+# javamagazin-serie-funktionale-programming
