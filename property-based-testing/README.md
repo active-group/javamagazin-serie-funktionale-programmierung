@@ -2,11 +2,10 @@
 
 Sourcecode zum JavaMagazin-Artikel.
 
-## Usage
+## Benutzung
 
-This is a sbt project. You can compile code with `sbt compile`, run it with `sbt
-run`, and `sbt console` will start a Scala 3 REPL.
+Alle üblichen `sbt`-Befehle funktionieren, da es im Artikel ums Testen geht, sind die beiden sinnvollsten:
 
-However, as the article is concerned with testing, you are probably more
-interested in running the test suite with `sbt test`, or start a sbt test
-console with `sbt "Test / console"`.
+- `sbt test` um alle Tests auszuführen
+- `sbt "Test / console"` öffnet eine Scala 3 REPL mit allen Testabhängigkeiten.
+
