@@ -2,7 +2,5 @@
 
 Sourcecode zum JavaMagazin-Artikel.
 
-## Usage
-
-This is a sbt project. You can compile code with `sbt compile`, run it with `sbt
-run`, and `sbt console` will start a Scala 3 REPL.
+## Benutzung
+Du kannst den Code mit `sbt compile` kompilieren, mit `sbt run` die generierte Hallo-Welt-Anwendung ausführen und `sbt console` startet eine Scala 3 REPL.
